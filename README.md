@@ -47,7 +47,7 @@
     ```bash
     cd /path/to/your-new-app-name
     ```
-2.  **Android Studio (또는 선호하는 IDE)에서 프로젝트를 엽니다**.ㅋ
+2.  **Android Studio (또는 선호하는 IDE)에서 프로젝트를 엽니다**.
 3.  **Gradle을 동기화하고 프로젝트를 빌드**하여 모든 변경 사항이 올바르게 적용되었는지 확인합니다.
 
 이렇게 하면 새 안드로이드 프로젝트 설정이 완료됩니다.
