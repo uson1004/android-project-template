@@ -1,4 +1,4 @@
-package com.uson.androidprojecttemplate.ui.theme
+package com.uson.design_system.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
