@@ -183,7 +183,7 @@ move_source_directory() {
 
         # Copy all contents
         if [[ -n "$(ls -A "$src" 2>/dev/null)" ]]; then
-            cp -R "$src"/* "$dst"/
+            cp -R "$src"/. "$dst"/
         fi
 
         # Remove old directory
