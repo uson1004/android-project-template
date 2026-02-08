@@ -1,4 +1,4 @@
-package com.uson.androidprojecttemplate.ui.theme
+package com.uson.design_system.ui.theme
 
 import android.app.Activity
 import android.os.Build
