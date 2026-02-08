@@ -6,6 +6,7 @@ plugins {
     id(libs.plugins.kotlin.android.get().pluginId)
     id(libs.plugins.hilt.android.get().pluginId)
     id(libs.plugins.kotlin.ksp.get().pluginId)
+    alias(libs.plugins.kotlin.compose)
 }
 
 android {

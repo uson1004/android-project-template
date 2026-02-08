@@ -3,8 +3,7 @@ import org.gradle.api.Project
 import org.gradle.kotlin.dsl.dependencies
 import org.gradle.kotlin.dsl.project
 
-class
-ComposeGradlePlugin : Plugin<Project> {
+class ComposeGradlePlugin : Plugin<Project> {
     override fun apply(project: Project) {
         project.plugins.apply("org.jetbrains.kotlin.plugin.compose")
 
