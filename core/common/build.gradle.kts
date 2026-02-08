@@ -6,5 +6,5 @@ plugins {
 apply<CommonGradlePlugin>()
 
 android {
-    namespace = "com.yuseob.android.core.network"
+    namespace = "com.yuseob.android.core.common"
 }
