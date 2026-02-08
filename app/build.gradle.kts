@@ -10,25 +10,34 @@ plugins {
 }
 
 android {
-    namespace = "com.uson.androidprojecttemplate" // 패키지 네임스페이스 정의
+    namespace = "com.uson.androidprojecttemplate"
+
     defaultConfig {
-        applicationId = "com.uson.androidprojecttemplate" // Override default from plugin
+        applicationId = "com.uson.androidprojecttemplate"
         versionCode = ProjectProperties.VERSION_CODE
         versionName = ProjectProperties.VERSION_NAME
         compileSdk = ProjectProperties.COMPILE_SDK
         minSdk = ProjectProperties.MIN_SDK
-        targetSdk = ProjectProperties.TARGET_SDK // Override default from plugin
+        targetSdk = ProjectProperties.TARGET_SDK
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_18
         targetCompatibility = JavaVersion.VERSION_18
     }
+
     kotlinOptions {
         jvmTarget = ProjectProperties.JVM_TARGET
     }
+
+    hilt {
+        enableAggregatingTask = false
+    }
+
     buildFeatures {
         compose = true
     }
+
     composeOptions {
         kotlinCompilerExtensionVersion = ProjectProperties.COMPOSE_VERSION
     }
