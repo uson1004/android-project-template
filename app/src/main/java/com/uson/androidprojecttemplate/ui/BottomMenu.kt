@@ -17,46 +17,20 @@ sealed class BottomMenu(
     @DrawableRes val selectedIcon: Int,
     val title: String,
 ) {
-/*    /**
-     * 홈 메뉴 아이템
-     */
-    data object Home : BottomMenu(
-        route = HomeScreenNav,
-        icon = R.drawable.ic_home,
-        selectedIcon = R.drawable.ic_home_fill,
-        title = "홈",
-    )
-
-    /**
-     * 신청 메뉴 아이템
-     */
-    data object Application : BottomMenu(
-        route = ApplicationScreenNav,
-        icon = R.drawable.ic_check_circle,
-        selectedIcon = R.drawable.ic_check_circle_fill,
-        title = "신청",
-    )
-
-    /**
-     * 마이페이지 메뉴 아이템
-     */
-    data object MyPage : BottomMenu(
-        route = MyPageScreenNav,
-        icon = R.drawable.ic_mypage,
-        selectedIcon = R.drawable.ic_mypage_fill,
-        title = "마이페이지",
-    ) */
-
+    // TODO: 바텀 메뉴 아이템 정의
+    // 예시:
+    // data object Home : BottomMenu(
+    //     route = HomeScreenNav,
+    //     icon = R.drawable.ic_home,
+    //     selectedIcon = R.drawable.ic_home_fill,
+    //     title = "홈",
+    // )
     companion object {
         /**
          * 모든 바텀 메뉴 아이템을 순서대로 반환
          *
          * @return 바텀 메뉴 아이템 리스트
          */
-        fun values(): List<BottomMenu> = listOf(
-//            Home,
-//            Application,
-//            MyPage,
-        )
+        fun values(): List<BottomMenu> = TODO("정의된 메뉴 아이템 리스트 반환")
     }
 }
