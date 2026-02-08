@@ -34,6 +34,8 @@ class CommonGradlePlugin : Plugin<Project> {
             implementation(libs.findLibrary("androidx.core.ktx").get())
             androidTestImplementation(libs.findLibrary("androidx.junit").get())
             testImplementation(libs.findLibrary("junit").get())
+            implementation(libs.findLibrary("hilt.android").get())
+            add("ksp", libs.findLibrary("hilt.android.compiler").get())
         }
     }
 }
